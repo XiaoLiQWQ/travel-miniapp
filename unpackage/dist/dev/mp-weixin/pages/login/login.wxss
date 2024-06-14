@@ -1,0 +1,13 @@
+
+input {
+		box-sizing: border-box;
+		margin: 20px;
+		padding: 0 10px;
+		height: 40px;
+		border-radius: 10px;
+		border: 1px solid #dadada;
+}
+button {
+		width: 90%;
+}
+

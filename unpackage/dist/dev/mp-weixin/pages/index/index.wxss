@@ -1,0 +1,39 @@
+
+	
+	/* 轮播图样式 */
+swiper {
+		margin-bottom: 50px;
+		width: 100%;
+		height: 200px;
+}
+swiper img {
+		/* 图片撑满盒子 */
+		width: 100%;
+}
+.title {
+		margin-left: 15px;
+		font-weight: bold;
+}
+	
+	/* 弹性布局 自动换行 平均居中 */
+.area {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+}
+.area .item {
+		margin: 10px 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 45%;
+}
+.area .item img {
+		width: 100%;
+}
+.area .item text {
+		font-size: 15px;
+		font-weight: bold;
+		color: #333;
+}
+	

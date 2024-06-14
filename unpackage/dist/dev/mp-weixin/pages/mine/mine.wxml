@@ -1,0 +1,1 @@
+<view><view class="user-info"><image src="/static/logo.png" alt=""></image><view class="user-info-content"><text class="nick">{{a}}</text><text class="level">等级: 0</text></view></view><button class="login" type="primary" hidden="{{!b}}" bindtap="{{c}}">去登陆</button></view>

@@ -1,0 +1,1 @@
+<view><input type="text" placeholder="账号" value="{{a}}" bindinput="{{b}}"></input><input type="password" placeholder="密码" value="{{c}}" bindinput="{{d}}"></input><button type="primary" bindtap="{{e}}">登陆</button></view>

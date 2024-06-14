@@ -1,0 +1,1 @@
+<view class="details"><text class="title">{{a}}</text><image src="{{b}}" alt=""></image><text class="content">{{c}}</text></view>

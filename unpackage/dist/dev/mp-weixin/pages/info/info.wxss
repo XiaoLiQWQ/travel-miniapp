@@ -1,0 +1,70 @@
+
+	
+	/* 图片样式 */
+img {
+		/* 一共加起来100%宽度，相当于100vw */
+		margin-left: 5%;
+		width: 90%;
+}
+	
+	/* 内容样式 */
+.content {
+		margin-top: 20px;
+		
+		/* flex弹性盒子布局 */
+		display: flex;
+		/* 横向居中 */
+		align-items: center;
+		/* 竖向平均分对齐 */
+		justify-content: space-around;
+}
+	
+	/* 按钮样式 */
+.button {
+		/* 14px字体大小，字体加粗，颜色半灰色 */
+		font-size: 14px;
+		font-weight: bold;
+		color: #555;
+}
+	
+	/* 攻略样式 弹性竖向布局 */
+.recommand {
+		box-sizing: border-box;
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+}
+	
+	/* 弹性竖向布局 */
+.recommand .item {
+		margin: 10px 0;
+		padding-bottom: 10px;
+		display: flex;
+		flex-direction: column;
+		border-bottom: 1px solid #dadada;
+}
+.recommand .item .title {
+		font-weight: bold;
+		color: #222;
+}
+	
+	/* 弹性布局 */
+.recommand .item view {
+		margin-top: 5px;
+		display: flex;
+		align-items: center;
+}
+.recommand .item view img {
+		margin-left: 0;
+		width: 40%;
+}
+.recommand .item view text {
+		margin-left: 10px;
+		flex: 1;
+		overflow: hidden;
+		/* 三行显示省略号 */
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 4;
+}
+
